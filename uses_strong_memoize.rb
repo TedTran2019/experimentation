@@ -47,6 +47,8 @@ class Foo
     memoized_e
   end
 
+  private
+
   def memoized_e
     puts 'MEMOIZED'
     100
